@@ -130,3 +130,5 @@ HAYSTACK_CONNECTIONS = {
         'INDEX_NAME': 'books',
     },
 }
+
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
